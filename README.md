@@ -1,5 +1,7 @@
 # Using C++ in Swift
 The demo project for using C++ in Swift.
+Image demo:
+![Image demo](images/sample.png)
 ## Steps I built this project
 1. Create a new project in Xcode, choose Single View App.
 2. Make a library project in Xcode, choose Objective-C Library, with name "Cleanlibrary".
