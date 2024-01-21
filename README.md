@@ -1,4 +1,4 @@
-# using_c_in_swift
+# Using C++ in Swift
 The demo project for using C++ in Swift.
 ## Steps I built this project
 1. Create a new project in Xcode, choose Single View App.
