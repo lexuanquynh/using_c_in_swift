@@ -37,11 +37,11 @@ Tips: You can add automatically by Xcode, just add a C++ file in the Swift proje
 
 10. In the Swift file, using the C++ function like this:
 ```swift
-let numOne = Int(numOneTextFiled.text ?? "") ?? 0
-        let numTwo = Int(numTwoTextFiled.text ?? "") ?? 0
-        let hello = HelloWrapper()
-        let result = hello.sum(Int32(numOne), Int32(numTwo))
-        resultLabel.text = "\(result)"
+    let numOne = Int(numOneTextFiled.text ?? "") ?? 0
+    let numTwo = Int(numTwoTextFiled.text ?? "") ?? 0
+    let hello = HelloWrapper()
+    let result = hello.sum(Int32(numOne), Int32(numTwo))
+    resultLabel.text = "\(result)"
 ```
 
 ## License
