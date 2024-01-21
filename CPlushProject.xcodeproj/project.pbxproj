@@ -183,7 +183,6 @@
 		C6FC768A2B5B759500830CF8 /* Cleanlibrary */ = {
 			isa = PBXGroup;
 			children = (
-				C6FC76EB2B5B803200830CF8 /* UseCase */,
 				C6FC76E92B5B7DBB00830CF8 /* libPureMVC.a */,
 				C6FC768B2B5B759500830CF8 /* Cleanlibrary.h */,
 				C6FC768C2B5B759500830CF8 /* Cleanlibrary.m */,
@@ -200,13 +199,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6FC76EB2B5B803200830CF8 /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

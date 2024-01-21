@@ -8,13 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var numOneTextFiled: UITextField!
+    @IBOutlet weak var numTwoTextFiled: UITextField!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func onCalculateTouched(_ sender: Any) {
+        let numOne = Int(numOneTextFiled.text ?? "") ?? 0
+        let numTwo = Int(numTwoTextFiled.text ?? "") ?? 0
         let hello = HelloWrapper()
-        let a = hello.sum(12, 1)
-        debugPrint("a \(a)")
+        let result = hello.sum(Int32(numOne), Int32(numTwo))
+        resultLabel.text = "\(result)"
     }
+    
 }
 
